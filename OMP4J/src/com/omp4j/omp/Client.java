@@ -19,7 +19,7 @@ public class Client {
     
     private String username = "admin";
     private String password = "admin";
-    private  String host = "172.16.20.64";
+    private  String host = "192.168.29.132";
     private  String port = "9390";
     
     public Client(String username, String password, String host, String port) {
@@ -29,8 +29,8 @@ public class Client {
         this.port = port;
     }
     
-    public Client(String username, String password) {
-        this(username, password, "localhost", "9390");
+    public Client(String username, String password) {		
+        this(username, password, "192.168.29.132", "9390");
     }
     
     private String execute(OMPCommand command) throws IOException, InterruptedException {
@@ -107,10 +107,10 @@ public class Client {
      */
     public static void main(String... args) {
         try {
-            String host = "172.16.20.64",
+            String host = "192.168.29.132",
                     scanType = "Full and fast";
             
-            Client omp = new Client("admin", "password");
+            Client omp = new Client("admin", "admin");
             
             System.out.println("===  Get ConfigID for Full and Fast ===================================".substring(0, 65));
             GetConfigsResponse cr = omp.getConfigs();

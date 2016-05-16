@@ -3,7 +3,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/Proc_OMP"/>
-	<classpathentry kind="lib" path="C:/Users/Kennedy.Torkura/devops/xom-1.2.5.jar" sourcepath="C:/Users/Kennedy.Torkura/devops/xom-1.2.5-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Kennedy.Torkura/devops/xom-1.2.5-sources.jar"/>
+	<classpathentry kind="lib" path="D:/devOps/xom.jar" sourcepath="D:/devOps/xom-1.2.10-src"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
